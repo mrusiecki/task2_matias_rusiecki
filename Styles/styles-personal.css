@@ -1,0 +1,100 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgb(114, 208, 205);
+}
+
+.Header {
+    display: block;
+}
+
+H1 {
+    font-variant-caps: all-petite-caps;
+    font-size: 80px;
+    color: rgb(225, 255, 0);
+    text-shadow: 1px 1px 2px black, 0 0 1em orange, 0 0 0.2em orange;
+    position: relative;
+    text-align: center;
+    top: 30px;
+    left: 30px;
+}
+
+.Nav {
+    font-size: 25px;
+    position: relative;
+    text-align: left;
+    left: 60px;
+    bottom: -525px;
+    z-index: 2;
+    background-color: transparent;
+}
+
+.Nav-on {
+    background-color: rgb(255, 205, 112);
+    color: rgb(225, 255, 0);
+    text-shadow: 1px 1px 2px black, 0 0 1em orange, 0 0 0.2em orange;
+    padding: 5px;
+    border: 3px solid black;
+}
+
+.Nav-off {
+    background-color: rgb(114, 208, 205);
+    color: white;
+    text-shadow: 1px 1px 2px black, 0 0 1em orange, 0 0 0.2em orange;
+    padding: 5px;
+    border: 2px solid black;
+}
+
+.Nav-off:hover {
+    background-color: rgb(255, 205, 112);
+    color: rgb(225, 255, 0);
+    text-shadow: 1px 1px 2px black, 0 0 1em orange, 0 0 0.2em orange;
+    padding: 5px;
+    border: 3px solid black;
+}
+
+.Img-header {
+    position: relative;
+    height: 500px;
+    width: 1520px;
+    z-index: 0;
+    top: 10px;
+}
+
+H2 {
+    background-color: black;
+    color: azure;
+    position: relative;
+    font-size: 50px;
+    text-align: center;
+    border: 2px solid black;
+    top: 8px;
+}
+
+.Logo {
+    position: absolute;
+    width: 300px;
+    top: 615px;
+    right: 20px;
+    z-index: 2;
+    background-color: transparent;
+}
+
+.Main-text {
+    position: relative;
+    font-size: 20px;
+    top: 60px;
+    left: 60px;
+    width: 1100px;
+    padding: 10px;
+    background-color: rgb(114, 208, 205);
+}
+
+p {
+    position: relative;
+    left: 20px;
+    text-align: justify;
+    padding: 20px;
+}
